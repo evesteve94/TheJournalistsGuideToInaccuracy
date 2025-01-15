@@ -17,6 +17,7 @@ model Response {
   length    Length
   createdAt DateTime  @default(now())
   updatedAt DateTime  @updatedAt
+  imageURL  String
 }
 
 enum Character {
